@@ -12,7 +12,7 @@ class Kata {
   // static method
   static create(name) {}
   // getter+setter
-  set isAwesome(isAweseome) {}
+  set isAwesome(isAwesome) {}
   get isAwesome() {}
 }
 Kata.LEVEL = 'high'; // static property
@@ -24,7 +24,7 @@ And maintains `this` from the outer scope.
 function Kata() {
   this.name = 'kata';
   setTimeout(() => {
-    alert(this.kata); // => 'kata'
+    alert(this.name); // => 'kata'
   }, 1);
 }
 new Kata();
