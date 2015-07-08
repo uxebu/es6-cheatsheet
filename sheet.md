@@ -1,2 +1,1 @@
-# moved into separate file
-# just to not break this link :)
+[moved here](https://github.com/uxebu/es6-cheatsheet)
